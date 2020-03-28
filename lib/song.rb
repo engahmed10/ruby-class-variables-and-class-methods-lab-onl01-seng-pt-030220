@@ -1,7 +1,7 @@
 class Song
 
 attr_accessor :name, :artist , :genre
-@@count = 0
+@@count =0
 @@artists=[]
 @@genres=[]
 @@genre_count = {}
@@ -37,9 +37,11 @@ def self.genre_count
           @@genre_count[po]=count
       else
           @@genre_count[po]=count
-      end
-   end
+     end
+
+    end
   @@genre_count
+
 end
 
 def self.artist_count
@@ -48,12 +50,14 @@ def self.artist_count
      po=@@artists.pop
     if @@artists.include?(key)
         count +=1
-        @@artist_count[po]=count
+        #@@artist_count[po]=count
     else
         @@artist_count[po]=count
-    end
+   end
+
   end
 @@artist_count
+
 end
 
 end
