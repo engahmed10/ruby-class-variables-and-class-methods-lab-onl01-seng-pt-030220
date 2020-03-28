@@ -50,14 +50,14 @@ def self.artist_count
      po=@@artists.pop
     if @@artists.include?(key)
         count +=1
-        #@@artist_count[po]=count
+        @@artist_count[po]=count
     else
         @@artist_count[po]=count
    end
 
   end
-@@artist_count
-
+#@@artist_count
+count
 end
 
 end
