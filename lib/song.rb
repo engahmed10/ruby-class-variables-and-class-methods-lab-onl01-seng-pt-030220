@@ -52,7 +52,6 @@ def self.artist_count
         count +=1
         @@artist_count[po]=count
     else
-      count
         @@artist_count[po]=count
    end
 
