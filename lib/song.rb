@@ -57,8 +57,8 @@ def self.artist_count
    end
 
   end
-#@@artist_count
-count
+@@artist_count
+
 end
 
 end
